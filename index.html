@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <title>figma</title>
+  </head>
+  <body class="w-full lg:max-w-[1440px] mx-auto bg-[#F3F3F3]">
+    <!-- #region head-->
+    <header class="relative">
+      <div
+        class="w-full left-1/2 -translate-x-1/2 lg:max-w-[1224px] flex gap-3 absolute top-0 z-40 bg-white shadow-lg rounded-b-[8px] h-[56px] lg:h-[96px]"
+      >
+        <div class="flex justify-center items-center w-[30%] h-full">
+          <img src="./src/img/Logo.png" />
+        </div>
+        <div
+          class="flex text-[10px] gap-3 items-center justify-center w-full h-full lg:font-normal lg:text-[16px] lg:gap-15"
+        >
+          <div><p>رزرو خودرو</p></div>
+          <div><p>خدمات ما</p></div>
+          <div><p>رزرو خودرو</p></div>
+          <div><p>رزرو خودرو</p></div>
+        </div>
+        <div class="w-[30%] flex justify-center items-center h-full">
+          <button
+            class="bg-[#194BF0] h-5 lg:h-8 text-white text-[8px] lg:text-sm px-1 lg:px-2 rounded-[8px]"
+          >
+            ورود / ثبت نام
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="relative flex justify-center items-center h-[400px] overflow-hidden pt-10 lg:pt-0"
+      >
+        <img
+          class="object-cover h-[400px] w-full"
+          src="./src/img/image.png"
+          alt=""
+        />
+        <div class="bg-black/60 absolute z-30 top-0 w-full h-[400px]"></div>
+
+        <div
+          class="absolute top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 z-40 flex justify-center items-center flex-col gap-3"
+        >
+          <p class="text-[32px] text-[#FDB713]">پرداخت</p>
+          <div class="flex gap-3">
+            <p class="text-[12px] text-white font-extralight">اتورنت</p>
+            <p class="text-[12px] text-white font-extralight">></p>
+            <p class="text-[12px] text-white font-extralight">
+              ثبت درخواست رزرو
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="w-full flex justify-between gap-3 rounded-[16px] bg-white h-[122px] items-center px-6 mt-14"
+    >
+      <!-- circle  -->
+      <div class="flex flex-col gap-1 justify-center items-center">
+        <div
+          class="w-[52px] h-[52px] bg-[#194BF0] rounded-full flex justify-center items-center"
+        >
+          <div
+            class="w-[43px] flex justify-center items-center h-[43px] bg-[#194BF0] border border-white rounded-full"
+          >
+            <img
+              class="object-cover w-[18px] h-[16px]"
+              src="./src/img/tick.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="text-base">مشخصات</div>
+      </div>
+      <div
+        class="border-0 border-b border-[#AEAEAE] w-full max-w-[202px]"
+      ></div>
+
+      <!-- circle  -->
+      <div
+        class="border-0 border-b border-[#AEAEAE] w-full max-w-[100px]"
+      ></div>
+      <!-- circle  -->
+      <div class="flex flex-col gap-1 justify-center items-center">
+        <div
+          class="w-[52px] h-[52px] bg-[#194BF0] rounded-full flex justify-center items-center"
+        >
+          <div
+            class="w-[43px] flex justify-center items-center h-[43px] bg-[#194BF0] border border-white rounded-full"
+          >
+            <img
+              class="object-cover w-[18px] h-[16px]"
+              src="./src/img/tick.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="text-base">مشخصات</div>
+      </div>
+      <div
+        class="border-0 border-b border-[#AEAEAE] w-full max-w-[202px]"
+      ></div>
+      <!-- circle  -->
+      <div class="flex flex-col gap-1 justify-center items-center">
+        <div
+          class="w-[52px] h-[52px] bg-[#FDB713] rounded-full flex justify-center items-center"
+        >
+          <img
+            class="object-cover w-[32px] h-[32px]"
+            src="./src/img/card.png"
+            alt=""
+          />
+        </div>
+        <div class="text-base">مشخصات</div>
+      </div>
+      <div class="border border-b border-[#AEAEAE] w-full max-w-[202px]"></div>
+
+      <!-- circle  -->
+      <div class="flex flex-col gap-1 justify-center items-center">
+        <div
+          class="w-[52px] h-[52px] bg-[#F3F3F3] border border-[#AEAEAE] rounded-full flex justify-center items-center"
+        >
+          <img class="object-cover" src="./src/img/caricon.png" alt="" />
+        </div>
+        <div class="text-base">مشخصات</div>
+      </div>
+    </div>
+
+    <div
+      class="w-full flex flex-col gap-3 rounded-[16px] bg-white h-[294px] justify-center items-center px-6 mt-14"
+    >
+      <div
+        class="border-b border-[#AEAEAE] h-[48px] w-full text-lg lg:text-2xl"
+      >
+        اطلاعات رزرو
+      </div>
+      <div
+        class="h-[180px] flex justify-center flex-col p-3 items-center w-full"
+      >
+        <div class="h-[62px] flex justify-between w-full">
+          <div class="flex gap-1">
+            <div>
+              <img class="object-cover" src="./src/img/check3.png" alt="" />
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[#353535] text-xs">محل تحویل</p>
+              <p class="text-[#727272] text-xs">تحویل در تهران</p>
+            </div>
+          </div>
+
+          <div class="flex gap-1">
+            <div>
+              <img class="object-cover" src="./src/img/check3.png" alt="" />
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[#353535] text-xs">محل تحویل</p>
+              <p class="text-[#727272] text-xs">تحویل در تهران</p>
+            </div>
+          </div>
+
+          <div class="flex gap-1">
+            <div>
+              <img class="object-cover" src="./src/img/check3.png" alt="" />
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[#353535] text-xs">محل تحویل</p>
+              <p class="text-[#727272] text-xs">تحویل در تهران</p>
+            </div>
+          </div>
+        </div>
+        <div class="h-[62px] flex justify-between w-full">
+          <div class="flex gap-1">
+            <div>
+              <img class="object-cover" src="./src/img/check3.png" alt="" />
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[#353535] text-xs">محل تحویل</p>
+              <p class="text-[#727272] text-xs">تحویل در تهران</p>
+            </div>
+          </div>
+
+          <div class="flex gap-1">
+            <div>
+              <img class="object-cover" src="./src/img/check3.png" alt="" />
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[#353535] text-xs">محل تحویل</p>
+              <p class="text-[#727272] text-xs">تحویل در تهران</p>
+            </div>
+          </div>
+
+          <div class="flex gap-1">
+            <div>
+              <img class="object-cover" src="./src/img/check3.png" alt="" />
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[#353535] text-xs">محل تحویل</p>
+              <p class="text-[#727272] text-xs">تحویل در تهران</p>
+            </div>
+          </div>
+        </div>
+        <div class="h-[62px] flex justify-between w-full">
+          <div class="flex gap-1">
+            <div>
+              <img class="object-cover" src="./src/img/check3.png" alt="" />
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[#353535] text-xs">محل تحویل</p>
+              <p class="text-[#727272] text-xs">تحویل در تهران</p>
+            </div>
+          </div>
+
+          <div class="flex gap-1">
+            <div>
+              <img class="object-cover" src="./src/img/check3.png" alt="" />
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[#353535] text-xs">محل تحویل</p>
+              <p class="text-[#727272] text-xs">تحویل در تهران</p>
+            </div>
+          </div>
+
+          <div class="flex gap-1">
+            <div>
+              <img class="object-cover" src="./src/img/check3.png" alt="" />
+            </div>
+            <div class="flex flex-col gap-1">
+              <p class="text-[#353535] text-xs">محل تحویل</p>
+              <p class="text-[#727272] text-xs">تحویل در تهران</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full flex flex-col lg:flex-row gap-6 mt-10">
+      <!-- ستون سمت راست -->
+      <div class="w-full lg:w-2/3 bg-white rounded-[16px] p-6">
+        <div class="text-lg lg:text-2xl font-bold border-b pb-3 mb-6">
+          محاسبه قیمت
+        </div>
+        <div class="flex flex-col gap-3 text-[#353535] text-sm">
+          <div class="flex justify-between">
+            <span>هزینه روزانه</span>
+            <span>۲۵,۵۰۰,۰۰۰</span>
+          </div>
+          <div class="flex justify-between">
+            <span>تحویل در محل مبدا</span>
+            <span>۸۵۰,۰۰۰</span>
+          </div>
+          <div class="flex justify-between">
+            <span>تحویل در محل بازگشت</span>
+            <span>۸۵۰,۰۰۰</span>
+          </div>
+          <div class="flex justify-between">
+            <span>مالیات</span>
+            <span>۳,۶۸۵,۵۱۰</span>
+          </div>
+          <div class="flex justify-between font-bold pt-3">
+            <span>مجموع هزینه</span>
+            <span>۳۰,۳۵۵,۵۱۰</span>
+          </div>
+          <div class="flex justify-between">
+            <span>ودیعه</span>
+            <span>۱۵۰,۰۰۰,۰۰۰</span>
+          </div>
+          <div class="flex justify-between">
+            <span>ودیعه راهنمایی رانندگی</span>
+            <span>۰</span>
+          </div>
+          <div class="flex justify-between font-bold pt-3">
+            <span>مجموع هزینه به‌همراه ودیعه</span>
+            <span>۱۸۰,۳۵۵,۵۱۰</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ستون سمت چپ -->
+      <div
+        class="w-full lg:w-1/2 flex flex-col justify-center items-start bg-white rounded-[16px] p-6"
+      >
+        <div class="flex flex-col gap-6 justify-center text-sm text-[#353535]">
+          <label class="flex items-center gap-2">
+            <input type="checkbox" class="w-4 h-4" />
+            مایلم ودیعه ها را بعدا پرداخت کنم.
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="checkbox" class="w-4 h-4" />
+
+            <p>
+              مایلم بابت ودیعه، مبلغ ۵۰,۰۰۰,۰۰۰ تومان نقد به همراه ۸۰,۰۰۰,۰۰۰
+              <br />
+              میلیون تومان چک صیادی (بفش) پرداخت نمایم.
+            </p>
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="checkbox" class="w-4 h-4" />
+            ودیعه تا حداکثر مبلغ ۱۵۰,۰۰۰,۰۰۰ تومان با توجه به مدارک ارائه شده از
+            طرف شما متفاوت <br />خواهد بود.
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="checkbox" class="w-4 h-4" />
+            مایلم فقط با پرداخت مبلغ ۳۰,۳۵۵,۵۱۰ تومان خودرو را رزرو نمایم.
+          </label>
+        </div>
+        <div
+          class="w-full flex justify-between px-6 bg-[#00AF4B] text-white font-bold text-center py-4 mt-6 text-lg rounded-[4px]"
+        >
+          <div>قابل پرداخت</div>
+          <div>۴۵,۵۸۴,۰۰۰ تومان</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- شرایط طرفین -->
+    <div class="w-full bg-white rounded-t-[16px] p-6 mt-10">
+      <div class="text-lg lg:text-2xl font-bold border-b pb-3 mb-6">
+        شرایط و تعهدات طرفین
+      </div>
+      <div class="flex flex-col items-start justify-center gap-2 text-sm">
+        <div class="flex gap-1">
+          <input type="checkbox" class="w-4 h-4" />
+          <span>شرایط و تعهدات طرفین قرارداد را قبول دارم.</span>
+        </div>
+        <a href="#" class="text-[#194BF0] underline"
+          >متن شرایط و تعهدات طرفین</a
+        >
+      </div>
+    </div>
+
+    <!-- دکمه پرداخت و مبلغ نهایی -->
+    <div
+      class="w-full flex bg-[#D7D7D7] h-[109px] rounded-b-lg flex-row justify-between items-center mt-0 mb-20 px-6"
+    >
+      <div class="text-sm lg:text-xl font-bold text-[#353535]">
+        مبلغ قابل پرداخت: ۴۵,۵۸۴,۰۰۰ تومان
+      </div>
+      <button
+        class="bg-[#194BF0] text-white rounded-[12px] px-10 py-3 text-sm lg:text-lg mt-4 lg:mt-0"
+      >
+        پرداخت
+      </button>
+    </div>
+    <!-- #endregion -->
+    <!-- #region footer -->
+    <footer class="w-full pt-6 pb-6 bg-[#1E1E1EE5] rounded-2xl hidden lg:block">
+      <div
+        class="w-[365px] h-[125px] lg:p-4 rounded-2xl border border-[#868686] mx-auto flex flex-row items-center justify-between lg:w-[1120px] lg:h-[101px]"
+      >
+        <div
+          class="flex flex-col items-center justify-center lg:flex-row gap-2"
+        >
+          <img src="./src/img/map.png" alt="" />
+          <div class="flex flex-col items-center justify-center">
+            <h2 class="text-[12px] lg:text-[16px] text-white">ارتباط با ما</h2>
+            <p class="font-titr text-[12px] text-white">0912-21326545</p>
+          </div>
+        </div>
+        <span class="text-white">|</span>
+        <div
+          class="flex flex-col items-center justify-center lg:flex-row gap-2"
+        >
+          <img src="./src/img/pm.png" alt="" />
+          <div class="flex flex-col items-center justify-center">
+            <h2 class="text-[12px] lg:text-[16px] text-white">ایمیل</h2>
+            <p class="font-titr text-[12px] lg:text-[16px] text-white">
+              autorent@info.com
+            </p>
+          </div>
+        </div>
+        <span class="text-white">|</span>
+        <div
+          class="flex flex-col items-center justify-center lg:flex-row gap-2"
+        >
+          <img src="./src/img/map.png" alt="" />
+          <div class="flex flex-col items-center justify-center lg:text-[16px]">
+            <h2 class="text-[12px] text-white lg:text-[16px]">آدرس</h2>
+            <p class="font-titr text-[12px] text-white lg:text-[16px]">
+              تهران- خ شادمان
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full flex flex-col items-center justify-center lg:flex-row lg:w-[1250px] lg:h-[233px] lg:mx-auto"
+      >
+        <div class="w-full">
+          <img src="./src/img/Logo.png" alt="" />
+          <p class="text-[12px] text-white line-clamp-4 lg:text-[14px]">
+            اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگترین ناوگان
+            خودرویی متشکل از انواع خودروهای صفر کیلومتر، اقتصادی تا تجاری در
+            سراسر کشور ایران آماده خدمت‌رسانی به مشتریان است.
+          </p>
+        </div>
+        <div
+          class="w-full flex flex-col items-center justify-center lg:w-[134px] lg:h-[156px] lg:mr-10 lg:ml-10"
+        >
+          <h2 class="text-[12px] text-white lg:text-[14px]">دسترسی آسان</h2>
+          <h2 class="text-[12px] text-white lg:text-[14px]">دسترسی آسان</h2>
+          <h2 class="text-[12px] text-white lg:text-[14px]">دسترسی آسان</h2>
+          <h2 class="text-[12px] text-white lg:text-[14px]">دسترسی آسان</h2>
+        </div>
+        <div class="w-full flex flex-col lg:w-[320px] lg:h-[80px]">
+          <div>
+            <h3 class="text-white font-semibold mb-3">خبرنامه</h3>
+            <p class="text-sm text-gray-400 mb-2">ایمیل خود را وارد کنید</p>
+            <form class="flex gap-2">
+              <input
+                type="email"
+                placeholder="ایمیل خود را وارد کنید"
+                class="w-full px-4 py-2 rounded-md bg-gray-800 text-white placeholder-gray-500 focus:outline-none"
+              />
+              <button
+                type="submit"
+                class="px-4 py-2 bg-[#FDB713] hover:bg-yellow-600 text-black font-normal rounded-md"
+              >
+                ارسال
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center justify-center">
+        <img src="./src/img/creative-commons.png" alt="" />
+        <p class="text-[12px] lg:text-[14px] text-[#9A9A9A]">
+          تمامی حقوق این وبسایت متعلق به اتورنت می‌باشد
+        </p>
+      </div>
+    </footer>
+    <!-- #region footer/mobile-->
+    <footer
+      class="bg-[#1E1E1E] text-white py-8 px-4 space-y-6 rounded-t-2xl lg:hidden"
+    >
+      <div class="space-y-4">
+        <div
+          class="flex items-center justify-between bg-[#2A2A2A] rounded-xl p-4"
+        >
+          <div class="flex items-center gap-3">
+            <div class="p-2 bg-gray-700 rounded-full">
+              <svg
+                class="w-5 h-5 text-white"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 11c1.104 0 2-.896 2-2s-.896-2-2-2-2 .896-2 2 .896 2 2 2z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"
+                />
+              </svg>
+            </div>
+            <div class="text-sm">
+              <div class="font-semibold text-[10px]">آدرس</div>
+              <div class="text-gray-300 text-[8px]">تهران - خ شادمان</div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex items-center justify-between bg-[#2A2A2A] rounded-xl p-4"
+        >
+          <div class="flex items-center gap-3">
+            <div class="p-2 bg-gray-700 rounded-full">
+              <svg
+                class="w-5 h-5 text-white"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16 12l-4 4-4-4m8-4l-4-4-4 4"
+                />
+              </svg>
+            </div>
+            <div class="text-sm">
+              <div class="font-semibold text-[10px]">ایمیل</div>
+              <div class="text-gray-300 text-[8px]">autorent@info.com</div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex items-center justify-between bg-[#2A2A2A] rounded-xl p-4"
+        >
+          <div class="flex items-center gap-3">
+            <div class="p-2 bg-gray-700 rounded-full">
+              <svg
+                class="w-5 h-5 text-white"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 5a2 2 0 012-2h3l2 5-2 1a16 16 0 006 6l1-2 5 2v3a2 2 0 01-2 2h-1A17 17 0 013 6V5z"
+                />
+              </svg>
+            </div>
+            <div class="text-sm">
+              <div class="font-semibold text-[10px]">ارتباط با ما</div>
+              <div class="text-gray-300 text-[8px]">۰۹۱۲-۲۱۲۳۶۵۴۵</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="space-y-2">
+        <div class="font-semibold text-center text-white text-[12px]">
+          خبرنامه
+        </div>
+        <div class="flex rounded-md overflow-hidden border border-gray-400">
+          <input
+            type="email"
+            placeholder="ایمیل خود را وارد کنید"
+            class="flex-1 px-3 py-2 text-sm bg-transparent text-white placeholder-gray-400 focus:outline-none"
+          />
+          <button
+            class="bg-yellow-400 text-black text-sm font-semibold px-4 py-2 text-[12px]"
+          >
+            ارسال
+          </button>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center gap-2 text-[10px] text-gray-300">
+        <a href="#">دسترسی آسان</a>
+        <a href="#">سوالات متداول</a>
+        <a href="#">تماس با ما</a>
+        <a href="#">درباره ما</a>
+      </div>
+
+      <div class="text-center text-[10px] text-gray-400 leading-6 px-2">
+        اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگ‌ترین ناوگان
+        خودرویی مشتمل بر انواع خودروهای صفر کیلومتر اقتصادی تا تجاری در سراسر
+        کشور، آماده خدمت‌رسانی به مشتریان است.
+      </div>
+
+      <div class="flex flex-col items-center gap-2 mt-6">
+        <img src="./src/img/Logo.png" alt="لوگو اتورنت" class="w-24" />
+        <div class="text-[10px] text-gray-500">
+          تمامی حقوق این وبسایت متعلق به اتورنت می‌باشد
+        </div>
+      </div>
+    </footer>
+    <!-- #endregion -->
+  </body>
+</html>

@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@font-face {
+  font-family: estedad;
+  /* src: url(../font/Estedad-Black.ttf);
+  src: url(../font/Estedad-Bold.ttf);
+  src: url(../font/Estedad-Medium.ttf);
+  src: url(../font/Estedad-SemiBold.ttf); */
+}
+
+@font-face {
+  font-family: "estedad";
+  src: url("../font/Estedad-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "estedad";
+  src: url("../font/Estedad-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "estedad";
+  src: url("../font/Estedad-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "estedad";
+  src: url("../font/Estedad-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "titr";
+  src: url("../font/B Titr Bold_0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "estedad", sans-serif;
+}
+
+@font-face {
+  font-family: titr;
+  src: url(../font/B\ Titr\ Bold_0.ttf);
+}
+
+@theme {
+  --font-estedad: estedad;
+  --font-titr: titr;
+}
